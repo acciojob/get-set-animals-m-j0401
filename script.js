@@ -14,6 +14,17 @@ class Animal {
 	}
 }
 
+class Cat extends Animal {
+constructor(species)
+	{
+	super(species);
+	}
+	purr()
+	{
+		console.log("purr";)
+	}
+	
+}
 class Dog extends Animal {
 	constructor(species)
 	{
@@ -26,17 +37,7 @@ class Dog extends Animal {
 	
 }
 
-class Cat extends Animal {
-constructor(species)
-	{
-	super(species);
-	}
-	purr()
-	{
-		console.log("purr";)
-	}
-	
-}
+
 
 // Do not change the code below this line
 window.Animal = Animal;
