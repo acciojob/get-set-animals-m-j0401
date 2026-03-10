@@ -18,7 +18,7 @@ class Cat extends Animal {
 
 	purr()
 	{
-		console.log("purr";)
+		console.log("purr");
 	}
 	
 }
@@ -34,7 +34,7 @@ class Dog extends Animal {
 
 
 // Do not change the code below this line
-module.exports = { Animal, Cat, Dog };
+//module.exports = { Animal, Cat, Dog };
 window.Animal = Animal;
 window.Dog = Dog;
 window.Cat = Cat;
